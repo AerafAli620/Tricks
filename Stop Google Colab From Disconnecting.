@@ -2,7 +2,8 @@
 ###------------------------------------------------------------------Disconnection due to idleness:----------------------------------------------------------------###
 ###----------------------------------------------------------------------------------------------------------------------------------------------------------------###
 
-This is a big drawback of Google Colab, and I’m sure a lot of you encountered this issue at least once. You decide to take a break, but when you’re back your notebook is disconnected!
+This is a big drawback of Google Colab, and I’m sure a lot of you encountered this issue at least once. You decide to take a break, but when you’re back your notebook 
+is disconnected!
 
 Actually, Google Colab automatically disconnects the notebook if we leave it idle for more than 30 minutes.
 
@@ -16,4 +17,5 @@ document.querySelector("colab-connect-button").click()
 setInterval(KeepClicking,60000)
 ###--------------------------------------------------###
 
-This function makes a click on the connect-button every 60 seconds. Thus, Colab thinks that the notebook is not idle and you don’t have to worry about being disconnected!
+This function makes a click on the connect-button every 60 seconds. Thus, Colab thinks that the notebook is not idle and you don’t have to worry about being 
+disconnected!
