@@ -1,7 +1,9 @@
 ###----------------------------------------------------------------------------------------------------------------------------------------------------------------###
 ###------------------------------------------------------------------Disconnection due to idleness:----------------------------------------------------------------###
 ###----------------------------------------------------------------------------------------------------------------------------------------------------------------###
-
+**********************************
+* Disconnection due to idleness: *
+**********************************
 This is a big drawback of Google Colab, and I’m sure a lot of you encountered this issue at least once. You decide to take a break, but when you’re back your notebook 
 is disconnected!
 
@@ -19,3 +21,11 @@ setInterval(KeepClicking,60000)
 
 This function makes a click on the connect-button every 60 seconds. Thus, Colab thinks that the notebook is not idle and you don’t have to worry about being 
 disconnected!
+
+******************************************
+* Disconnection while a task is running: *
+******************************************
+First, be aware that when you connect to a GPU, you are given a maximum of 12 hours at a time on the Cloud Machine.
+
+Sometimes it happens that you’re being disconnected, even within this 12-hour time lapse. As explained in Colab’s FAQ: “Colaboratory is intended for interactive use.
+Long-running background computations, particularly on GPUs, may be stopped.”
